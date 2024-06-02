@@ -1,21 +1,23 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Li, Nav, StyledLink, Ul } from './styles/navbar.style';
+
+
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    <Nav>
+      <Ul>
+        <Li>
+          <StyledLink to="/">Home</StyledLink>
+        </Li>
+        <Li>
+          <StyledLink to="/about">About</StyledLink>
+        </Li>
+        <Li>
+          <StyledLink to="/contact">Contact</StyledLink>
+        </Li>
+      </Ul>
+    </Nav>
   );
 };
-
 export default Navbar;
