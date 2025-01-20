@@ -37,7 +37,7 @@
     </section>
 
     <section id="section2"
-      class="bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden py-32">
+      class="bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden py-28">
       <div class="absolute top-0 left-0 w-full h-full bg-space-pattern"></div>
       <div class="relative max-w-5xl text-center space-y-12 " ref="section2Content">
         <h2 class="text-5xl font-extrabold text-white mb-6">About Me</h2>
@@ -145,7 +145,7 @@
     </section>
 
     <section id="section3"
-      class="h-screen bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden px-8 ">
+      class=" bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden px-8 py-20 ">
 
       <div class="absolute top-0 left-0 w-full h-full bg-space-pattern"></div>
       <h3 class="text-4xl font-bold mb-12 text-golden-brew ">Projects Made (Some of it is private due to DI PWEDE MA
@@ -195,7 +195,7 @@
 
 
     <section id="section4"
-      class=" bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden px-4 md:px-8 py-16">
+      class=" bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden px-4 md:px-8 py-20">
       <div class="absolute top-0 left-0 w-full h-full bg-space-pattern"></div>
 
       <div class="max-w-4xl mx-auto text-center">
@@ -242,9 +242,6 @@
         </div>
       </div>
     </section>
-
-
-
   </div>
 </template>
 
