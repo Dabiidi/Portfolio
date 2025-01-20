@@ -196,34 +196,33 @@
 
     <section id="section4"
       class=" bg-gradient-to-r from-space-blue via-coffee-brown to-dark-black flex flex-col items-center justify-center relative overflow-hidden px-4 md:px-8 py-20">
-      <div class="absolute top-0 left-0 w-full h-full bg-space-pattern"></div>
+      <div class="absolute top-0 left-0 w-full h-full bg-space-pattern z-0"></div>
 
-      <div class="max-w-4xl mx-auto text-center">
+      <div class="max-w-4xl mx-auto text-center relative z-10"> 
         <h2 class="text-4xl font-bold text-coffee-cream mb-8">Contact Me</h2>
         <p class="text-lg text-gray-300 mb-12">
           Feel free to reach out to me through any of the platforms below.
         </p>
         <div class="flex justify-center space-x-6">
-          <!-- Instagram -->
-          <a href="https://www.instagram.com/daaaaavz/" target="_blank"
+          <a href="https://www.instagram.com/daaaaavz/" 
             class="group flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-110 transition-transform duration-300"
             aria-label="Instagram">
             <i class="fab fa-instagram text-white text-2xl group-hover:rotate-12 transition-transform"></i>
           </a>
 
-          <a href="facebook.com/dave.engracia" target="_blank"
+          <a href="facebook.com/dave.engracia" 
             class="group flex items-center justify-center w-16 h-16 rounded-full bg-blue-600 hover:scale-110 transition-transform duration-300"
             aria-label="Facebook">
             <i class="fab fa-facebook-f text-white text-2xl group-hover:rotate-12 transition-transform"></i>
           </a>
 
-          <a href="https://discord.gg/dabiidi" target="_blank"
+          <a href="https://discord.gg/dabiidi" 
             class="group flex items-center justify-center w-16 h-16 rounded-full bg-indigo-600 hover:scale-110 transition-transform duration-300"
             aria-label="Discord">
             <i class="fab fa-discord text-white text-2xl group-hover:rotate-12 transition-transform"></i>
           </a>
-          <!-- GitHub -->
-          <a href="https://github.com/Dabiidi" target="_blank"
+          
+          <a href="https://github.com/Dabiidi" 
             class="group flex items-center justify-center w-16 h-16 rounded-full bg-gray-800 hover:scale-110 transition-transform duration-300"
             aria-label="GitHub">
             <i class="fab fa-github text-white text-2xl group-hover:rotate-12 transition-transform"></i>
